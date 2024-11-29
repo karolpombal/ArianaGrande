@@ -80,6 +80,12 @@ footer {
     padding: 10px 0;
 }
 
+.albuns_link{
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+}
+
 .albuns_link a{
     text-decoration: none;
     color: var(--branco-principal);
@@ -91,6 +97,22 @@ footer {
 
 .albuns_link a:active{
     color: #f82452
+}
+
+.albuns__img{
+    width: 7%;
+    border: 2px solid #ddd;
+    align-items: center;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    margin-bottom: 0.5em;
+}
+
+.container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .redes_link a{
