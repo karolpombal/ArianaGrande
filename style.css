@@ -88,3 +88,20 @@ footer {
 .albuns_link a:hover{
     color: #ff85a1;
 }
+
+.albuns_link a:active{
+    color: #f82452
+}
+
+.redes_link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.redes_link a:hover{
+    color: #ff85a1;
+}
+
+.redes_link a:active{
+    color: #f82452 
+}
